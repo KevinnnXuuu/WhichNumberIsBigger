@@ -9,6 +9,7 @@ public class BiggerNumberGame {
     public BiggerNumberGame(int lowerLimit, int upperLimit) {
         this.lowerLimit = lowerLimit;
         this.upperLimit = upperLimit;
+        generateRandomNumbers();
     }
     public void generateRandomNumbers() {
         // generate a number between the upper & Lower limits inclusive
@@ -32,6 +33,7 @@ public class BiggerNumberGame {
           score-=10;
           return "Umm...";
       }
+
 
 
     }
