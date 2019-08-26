@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 updateGameDisplay();
             }
 
+
         });
         buttonRight.setOnClickListener(new View.OnClickListener() {
             @Override
